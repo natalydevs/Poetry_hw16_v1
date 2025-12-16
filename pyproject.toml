@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "poetry-hw16-v1"
+version = "0.1.0"
+description = "Homework: pytest + selene + pylint (dev)"
+authors = ["Nataly Kostiuchenko <natcheshirnecats@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+pytest = "^9.0.2"
+selene = "^1.0.2"
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^4.0.4"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
